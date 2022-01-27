@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+p,h1{
+    color:rgb(255, 204, 153);
+    text-align: center;
+}
+ #album-fotos{
+     width: 700px;
+     margin: 0 auto;
+     padding: 50px;
+     list-style: none;
+     
+ }
+
+ #album-fotos li{
+     box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5);
+     border-radius: 10px  ;
+     float: left;
+     width: 200px;
+     height: 200px;
+     margin: 10px;
+     background-color: white;
+     color: #fff;
+     -webkit-transition: all 0.5s ease-in;
+ }
+ #album-fotos li span{
+    border-radius: 0px 10px  ;
+     padding: 5px;
+     opacity: 0;
+     background: rgba(0,0,0,0.5);
+     font: 0.9vw;
+     line-height: 370px;
+ }
+ #album-fotos li:hover span{
+     opacity: 1;
+ }
+
+ #album-fotos li.foto01{
+    background: url(../imagens/ahri.png) no-repeat;
+    background-size: 200px 200px;
+    background-position: 50% 50%;
+ }
+ #album-fotos li.foto02{
+    background: url(../imagens/amumu.png) no-repeat;
+    background-size: 200px 200px;
+    background-position: 50% 50%;
+ }
+ #album-fotos li.foto03{
+    background: url(../imagens/draven.png) no-repeat;
+    background-size: 200px 200px;
+    background-position: 50% 50%;
+ }#album-fotos li.foto04{
+    background: url(../imagens/ekko.png) no-repeat;
+    background-size: 200px 200px;
+    background-position: 50% 50%;
+ }#album-fotos li.foto05{
+    background: url(../imagens/garen.png) no-repeat;
+    background-size: 200px 200px;
+    background-position: 50% 50%;
+ }
+ #album-fotos li.foto06{
+    background: url(../imagens/jinx.png) no-repeat;
+    background-size: 200px 200px;
+    background-position: 50% 50%;
+    
+ }
+ #album-fotos li.foto07{
+   background: url(../imagens/kayle.png) no-repeat;
+   background-size: 200px 200px;
+   background-position: 50% 50%;
+   
+}
+#album-fotos li.foto08{
+   background: url(../imagens/kayn.png) no-repeat;
+   background-size: 200px 200px;
+   background-position: 50% 50%;
+   
+}
+#album-fotos li.foto09{
+   background: url(../imagens/lilia.png) no-repeat;
+   background-size: 200px 200px;
+   background-position: 50% 50%;
+   
+}
+#album-fotos li.foto10{
+   background: url(../imagens/masteryi.png) no-repeat;
+   background-size: 200px 200px;
+   background-position: 50% 50%;
+   
+}
+
+#album-fotos li.foto11{
+   background: url(../imagens/nekko.png) no-repeat;
+   background-size: 200px 200px;
+   background-position: 50% 50%;
+   
+}
+#album-fotos li.foto12{
+   background: url(../imagens/shaco.png) no-repeat;
+   background-size: 200px 200px;
+   background-position: 50% 50%;
+   
+}
+#album-fotos li.foto13{
+   background: url(../imagens/sona.png) no-repeat;
+   background-size: 200px 200px;
+   background-position: 50% 50%;
+   
+}
+
+
+
+ #album-fotos li:hover{
+     -webkit-transform: scale(1.3);
+ }
+
+ section#galeria2{
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+ }
+
+ ul#galeria-fotos{
+    list-style: none;
+    margin: 0 auto;
+    padding: 50px;
+ }
+
+ ul#galeria-fotos li{
+    display: block;
+    float: left;
+    margin: 3px;
+    position: relative;
+ }
+
+ ul#galeria-fotos img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid yellow;
+
+ }
+
+ .aumentar:hover{
+    -webkit-transform: scale(1.5);
+    z-index: 3;
+ }
+

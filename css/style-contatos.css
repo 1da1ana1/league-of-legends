@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+form{
+    width: 1000px;
+    margin: auto;
+}
+
+p{
+    color: white;
+}
+
+input, textarea{
+    font: 1.0vw;
+}
+
+legend{
+    color: #fff;
+    letter-spacing: 3px;
+    font: 1.3vw;
+    text-transform: uppercase;
+}
+
+fieldset{
+    border: 2px solid white;
+}
+fieldset#sexo{
+    width: 250px;
+    font: 1.1vw;
+}
+
+input.btn{
+    background: rgba(255, 0, 0,0.5);
+    color: white;
+    padding: 7px;
+    margin: 5px;
+    font: 1.1vw;
+    border: none;
+}
+
+input.btn:hover{
+    background: white;
+    color: black;
+}
+
+fieldset#usuario{
+    background: url(../imagens/icon-contato.png) no-repeat 95% 95%;
+}
+fieldset#endereco{
+    background: url(../imagens/icon-endereco.png)no-repeat 95% 95%;
+}
+fieldset#mensagem{
+    background: url(../imagens/icon-mensagem.png)no-repeat 95% 95% ;
+}
+
+#cnome,#csenha,
+#cemail,#cnasc,
+#crua,#cnum,
+#ccid,#cmsg,
+#cselc {
+  outline: none;
+  background: rgba(0, 0, 0, 0.104);
+  border:1px solid #ffff ;
+  font-size: 1rem;
+  padding: .3rem;
+  border-radius: 3px;
+}
